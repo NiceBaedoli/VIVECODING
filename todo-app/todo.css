@@ -72,11 +72,12 @@ h1 {
 
 .todos-container {
     display: flex;
-    flex-direction: column;
-    gap: 25px;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .todo-section {
+    flex: 1;
     background: #fafafa;
     border-radius: 10px;
     padding: 20px;
